@@ -21,7 +21,7 @@
 		}
 	},
 	"dependencies": {
-		"image": "node:${VARIANT}",
+		"image": "node:${NODE_VARIANT}",
 		"imageLink": "https://hub.docker.com/_/node",
 		"debian": [{
 			"cgIgnore": false,
@@ -33,8 +33,11 @@
 		},
 		"npm": [
 			"eslint",
+			"gulp",
 			"tslint-to-eslint-config",
-			"typescript"
+			"typescript",
+			"yo",
+			"@microsoft/generator-sharepoint"
 		],
 		"languages": {
 			"Node.js": {

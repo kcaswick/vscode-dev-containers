@@ -1,9 +1,10 @@
 # [Choice] Node.js version (use -bullseye variants on local arm64/Apple Silicon): 16, 14, 12, 16-bullseye, 14-bullseye, 12-bullseye, 16-buster, 14-buster, 12-buster
-ARG VARIANT=16-bullseye
-FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
+ARG NODE_VARIANT=14-bullseye
+FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${NODE_VARIANT}
 
-# Install tslint, typescript. eslint is installed by javascript image
-ARG NODE_MODULES="tslint-to-eslint-config typescript"
+# Install spfx generator, gulp, tslint, typescript. eslint is installed by javascript image
+ARG SPFX_VERSION=1.12.1
+ARG NODE_MODULES="gulp@4 tslint-to-eslint-config typescript yo @microsoft/generator-sharepoint@${SPFX_VERSION}"
 COPY library-scripts/meta.env /usr/local/etc/vscode-dev-containers
 RUN su node -c "umask 0002 && npm install -g ${NODE_MODULES}" \
     && npm cache clean --force > /dev/null 2>&1

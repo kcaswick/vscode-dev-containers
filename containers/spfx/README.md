@@ -6,7 +6,7 @@
 
 | Metadata | Value |  
 |----------|-------|
-| *Contributors* | The VS Code Team |
+| *Contributors* | The VS Code Team, [Kevin Caswick](https://github.com/kcaswick) |
 | *Categories* | Core, Languages |
 | *Definition type* | Dockerfile |
 | *Published image* | mcr.microsoft.com/vscode/devcontainers/spfx |

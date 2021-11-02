@@ -1,5 +1,5 @@
 {
-	"name": "SPFx with Node.js & TypeScript",
+	"name": "SPFx",
 	"build": {
 		"dockerfile": "Dockerfile",
 		// Update 'VARIANT' to pick an SPFx version: 1.12.1.
