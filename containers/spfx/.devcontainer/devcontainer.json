@@ -1,12 +1,11 @@
 {
-	"name": "Node.js & TypeScript",
+	"name": "SPFx with Node.js & TypeScript",
 	"build": {
 		"dockerfile": "Dockerfile",
-		// Update 'VARIANT' to pick a Node version: 16, 14, 12.
-		// Append -bullseye or -buster to pin to an OS version.
-		// Use -bullseye variants on local on arm64/Apple Silicon.
+		// Update 'VARIANT' to pick an SPFx version: 1.12.1.
+		// Append -14 or -12 to pin to a Node.js version.
 		"args": { 
-			"VARIANT": "16-bullseye"
+			"VARIANT": "1.12.1-14"
 		}
 	},
 

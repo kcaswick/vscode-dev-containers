@@ -1,8 +1,8 @@
-# [typescript-node](https://github.com/microsoft/vscode-dev-containers/tree/main/containers/typescript-node)
+# [spfx](https://github.com/microsoft/vscode-dev-containers/tree/main/containers/spfx)
 
 **Image version:** dev
 
-**Source release/branch:** [main](https://github.com/microsoft/vscode-dev-containers/tree/main/containers/typescript-node)
+**Source release/branch:** [main](https://github.com/microsoft/vscode-dev-containers/tree/main/containers/spfx)
 
 **Definition variations:**
 - [16-bullseye](#variant-16-bullseye)
@@ -18,8 +18,8 @@
 
 **Tags:**
 ```
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-16-bullseye
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-bullseye
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-16-bullseye
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-bullseye
 ```
 > *To keep up to date, we recommend using partial version numbers. Use the major version number to get all non-breaking changes (e.g. `0-`) or major and minor to only get fixes (e.g. `0.200-`).*
 
@@ -105,7 +105,7 @@ mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-bullseye
 
 **Tags:**
 ```
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-14-bullseye
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-14-bullseye
 ```
 > *To keep up to date, we recommend using partial version numbers. Use the major version number to get all non-breaking changes (e.g. `0-`) or major and minor to only get fixes (e.g. `0.200-`).*
 
@@ -191,7 +191,7 @@ mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-14-bullseye
 
 **Tags:**
 ```
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-12-bullseye
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-12-bullseye
 ```
 > *To keep up to date, we recommend using partial version numbers. Use the major version number to get all non-breaking changes (e.g. `0-`) or major and minor to only get fixes (e.g. `0.200-`).*
 
@@ -277,9 +277,9 @@ mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-12-bullseye
 
 **Tags:**
 ```
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-16-buster
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-16
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-buster
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-16-buster
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-16
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-buster
 ```
 > *To keep up to date, we recommend using partial version numbers. Use the major version number to get all non-breaking changes (e.g. `0-`) or major and minor to only get fixes (e.g. `0.200-`).*
 
@@ -366,8 +366,8 @@ mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-buster
 
 **Tags:**
 ```
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-14-buster
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-14
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-14-buster
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-14
 ```
 > *To keep up to date, we recommend using partial version numbers. Use the major version number to get all non-breaking changes (e.g. `0-`) or major and minor to only get fixes (e.g. `0.200-`).*
 
@@ -454,8 +454,8 @@ mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-14
 
 **Tags:**
 ```
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-12-buster
-mcr.microsoft.com/vscode/devcontainers/typescript-node:dev-12
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-12-buster
+mcr.microsoft.com/vscode/devcontainers/spfx:dev-12
 ```
 > *To keep up to date, we recommend using partial version numbers. Use the major version number to get all non-breaking changes (e.g. `0-`) or major and minor to only get fixes (e.g. `0.200-`).*
 
